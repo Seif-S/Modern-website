@@ -1,0 +1,101 @@
+body
+{
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+nav{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+nav a:hover
+{
+    border-radius: 15px;
+    background-color: lightgreen;
+    color: black;
+}
+
+header
+{
+    max-width: 720px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headertext
+{
+    width: 400px;
+    margin-right: auto;
+    text-shadow: 0 0 2px white;
+}
+
+img
+{
+    width: 300px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+button
+{
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: rgb(95, 236, 95);
+}
+
+button:hover
+{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.color
+{
+    pointer-events: none;
+    z-index: -1;
+    height: 1000px;
+    width:  1000px;
+    background-image: radial-gradient(closest-side, rgba(238, 19, 19, 0.562), #00000000);
+    position: absolute;
+    top: -570px;
+    left: 15%;
+}
+
+form
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 40px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.fruits
+{
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+.fruits div
+{
+    width: 196.5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
