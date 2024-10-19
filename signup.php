@@ -12,15 +12,19 @@
         <a href="Login.html">Login</a>
         <a href="#">Meet the team</a>
     </nav>
-    <form action="/Register" method="post">
+    <form action="register.php" method="post">
         <label for="name">Name</label><br>
-        <input type="text" name="Name" id="name"><br>
+        <input type="text" name="name" id="name"><br>
+
         <label for="email">Email</label><br>
         <input type="email" name="email" id="email"><br>
+
         <label for="password">Password</label><br>
         <input type="password" name="password" id="password"><br>
-        <label for="rPassword">Retype Password</label><br>
-        <input type="password" name="password" id="rPassword"><br><br>
+
+        <label for="passwordConfirmation">Retype Password</label><br>
+        <input type="password" name="passwordConfirmation" id="passwordConfirmation"><br><br>
+
         <button type="submit">Sign up</button><br><br>
         <a href="Login.html">Login</a>
         <a href="forgetPassword.html">Forgot password</a>
