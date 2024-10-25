@@ -12,10 +12,8 @@
         <a href="Login.html">Login</a>
         <a href="#">Meet the team</a>
     </nav>
-    <form action="register.php" method="post">
-        <h1>Sign up successful</h1>
-        you can now
-        <a href="Login.php">login</a>
+    <form action="Login.php" method="post">
+        <h1>Login successful</h1>
     </form>
     <div class="color"></div>
     <div class="color2"></div>

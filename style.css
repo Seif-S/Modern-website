@@ -121,6 +121,17 @@ form
     text-align: center;
 }
 
+input
+{
+    height: 20px;
+    margin: 3px;
+}
+
+input::placeholder
+{
+    text-align: center;
+}
+
 .fruits
 {
     display: flex;

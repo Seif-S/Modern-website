@@ -26,7 +26,7 @@
         <input type="password" name="passwordConfirmation" id="passwordConfirmation"><br><br>
 
         <button type="submit">Sign up</button><br><br>
-        <a href="Login.html">Login</a>
+        <a href="Login.php">Login</a>
         <a href="forgetPassword.html">Forgot password</a>
     </form>
     <div class="color"></div>
